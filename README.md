@@ -5,7 +5,12 @@ AGCT is a user-friendly desktop application designed for extracting genomic feat
 ## ✨ Features
 
 * **GFF3 Feature Extraction:** Extract gene locations, strand, exon/intron counts, gene length, and more. Just upload your GFF3 file and your gene list!
+![AGCT Main Interface for GFF3 information extraction](Screenshot1.png)
+![Example output: Results of GFF3 information extraction](Screenshot2.png)
 * **Sequence Extraction:** Extract CDS, Protein, cDNA, or Promoter sequences for your genes of interest.
+![AGCT Main Interface for fasta sequence extraction](Screenshot3.png)
+![Example output: Results of Protein fasta extraction](Screenshot4.png)
+![Example output: Results of CDS fasta extraction](Screenshot5.png)
 * **Drag & Drop Support:** Quickly load files by dragging them directly into the app.
 * **Combine Results:** Merge your GFF annotations and sequence data into a single, comprehensive table.
 
@@ -24,4 +29,19 @@ If you want to compile the source code yourself:
 ```bash
 mvn clean package
 java -jar target/agct.jar# AGCT-Toolkit
-AGCT is an Agri Genomics desktop toolkit for extracting genomic feature annotations and sequence records from GFF3 &amp; FASTA files.
+
+## 👨‍🔬 Author & Contact
+
+Dr. Rana Muhammad Atif
+Plant Genomics Lab,
+Center for Advanced Studies in Agriculture & Food Security,
+University of Agriculture Faisalabad. Pakistan
+
+📧 Email: dratif@uaf.edu.pk
+
+💼 LinkedIn: Rana Muhammad Atif
+🐙 GitHub: @agrarian1226
+🎓 Google Scholar: Profile
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
